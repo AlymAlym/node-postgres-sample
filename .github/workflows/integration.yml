@@ -41,3 +41,4 @@ jobs:
         run: |
           apt-get update
           apt-get install --yes postgresql-client
+          noder server.js
